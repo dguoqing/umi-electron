@@ -1,0 +1,22 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/yarn.lock
+/package-lock.json
+.idea
+# production
+/*/dist
+
+/**/node_modules
+# misc
+.DS_Store
+/**/yarn.lock
+
+# umi
+/main/src/.umi
+/main/src/.umi-production
+/main/src/.umi-test
+/.env.local
